@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="styles.css"> 
+        <title>
+            Task 1.1P example page
+        </title>
+        <meta name="description" content="Submission for SIT102">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <Style>
+            h2.OuterCentre{
+                Color: violet;
+                padding-left: 50px;
+                padding-top: 50px;
+                padding-bottom: 25px;
+            }
+        </Style>
+    </head>
+    <body>
+        <div>
+            <h1> Task 1.1P - Patrick Fierka (SID: 223197997) </h1>
+            <p> Within this page will be different uses of html tags, Lets see how each interacts with the page </p>
+        </div>
+
+        <br></br>
+
+        <div class="Centre">
+            <h2>
+                Images in html
+            </h2>
+
+            <br></br>
+
+            <p>The First Image is sourced directly from the internet and not from a local file</p>
+            <img src="https://cdn.pixabay.com/photo/2016/07/11/20/37/marguerite-1510602_1280.jpg" alt="Flower arragement image">
+            <p id="ImageRef"> Image by Pexels, URL: <a href="https://pixabay.com/photos/marguerite-flowers-field-buds-1510602/">https://pixabay.com/photos/marguerite-flowers-field-buds-1510602/</a></p>
+            
+            <br></br>
+
+            <p>This next image taken from a local file</p>
+            <img src="/Images/pink smiley ball on water.jpg" alt="Smiley Ball image">
+            <p id="ImageRef"> Image by Pexels, URL: <a href="https://pixabay.com/photos/ball-beach-happy-ocean-pink-smile-1845546/">https://pixabay.com/photos/ball-beach-happy-ocean-pink-smile-1845546/</a></p>
+        </div>
+
+        <div>
+            <h2 class="OuterCentre">
+                Tables in HTML
+            </h2>
+
+            <p style="background-color: aquamarine; color: orange; width: fit-content;"> This is an example of a table in html</p>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Skils</th>
+                    <th>Team</th>
+                <tr>
+                    <th>Jeff</th>
+                    <th>Juggling, Pottery</th>
+                    <th>Green</th>
+                </tr>
+            </table>
+        </div>
+
+        <div style="padding-top: 50px;">
+            <form method="Get">
+                <label for="MainUser">Username:</label><br>
+                <input type="text" id="MainUser" name="MainUser" maxlength="30" placeholder="e.g. PearPot25"><br>
+                <label for="UserEmail">Email:</label><br>
+                <input type="email" id="UserEmail" name="MainUser" maxlength="30" placeholder="example@gmail.com"><br><br>
+                <input type="submit" value="Submit"><br><br>
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+
+    </body>
